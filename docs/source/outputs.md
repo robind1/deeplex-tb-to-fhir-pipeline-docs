@@ -1,5 +1,5 @@
 # Output Files
-The primary output is a **HL7 FHIR Bundle** containing genomic observations merged with clinical data.
+The primary output is a **HL7 FHIR Bundle** containing genomic observations merged with DiagnosticReport.
 ```{image} _static/Deeplex_bundle_v1.4.png
 :alt: Deeplex FHIR Genomics Bundle
 :width: 600px
@@ -13,7 +13,6 @@ Each detected variant generates an observation (LOINC `69548-6`) containing:
     *   **Deeplex Myc-TB codon change**: (e.g., `cac445gac`) - LOINC `79162-1`.
     *   **pHGVS**: Amino acid change (e.g., `NC_000962.3:p.(H445D)`) - LOINC `48005-3`.
 *   **Gene Information**: The affected gene (e.g., *rpoB*) - LOINC `48018-6`.
-*   **DNA Change Type**: Sequence Ontology term (e.g., *missense_variant*) - LOINC `48019-4`.
 *   **Clinical Significance**: WHO classification (e.g., *Assoc w R*) - LOINC `53037-8`.
 
 ### Example: Variant Observation Resource
