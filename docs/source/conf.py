@@ -7,8 +7,8 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'Deeplex Myc-TB to FHIR Pipeline'
-copyright = '2026, OUCRU-ID'
-author = 'OUCRU-ID'
+copyright = '2026, SPHERES-OUCRUID'
+author = 'SPHERES-OUCRUID'
 release = '1.4.0'
 
 # -- General configuration ---------------------------------------------------
