@@ -10,7 +10,7 @@ The primary output is a **HL7 FHIR Bundle** containing genomic observations merg
 ### 1. Variant Observation Resources
 Each detected variant generates an observation (LOINC `69548-6`) containing:
 *   **Genomic Coordinates**: 
-    *   **Deeplex Myc-TB codon change**: (e.g., `cac445gac`) - LOINC `79162-1`.
+    *   **Deeplex Myc-TB codon change**: (e.g., `cac445gac`) - Custom `SP000800`.
     *   **pHGVS**: Amino acid change (e.g., `NC_000962.3:p.(H445D)`) - LOINC `48005-3`.
 *   **Gene Information**: The affected gene (e.g., *rpoB*) - LOINC `48018-6`.
 *   **Clinical Significance**: WHO classification (e.g., *Assoc w R*) - LOINC `53037-8`.
