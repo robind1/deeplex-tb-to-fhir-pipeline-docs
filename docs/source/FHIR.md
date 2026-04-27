@@ -18,7 +18,7 @@
 | **69548-6** | Genetic variant assessment | Observation (Variant) |
 | **89486-5** | Mycobacterial susceptibility panel | Observation (Panel) |
 | **81247-9** | Master HL7 genetic variant reporting panel | DiagnosticReport |
-| **79162-1** | Deeplex Myc-TB codon change | Variant Component |
+| **SP000800** | Deeplex Myc-TB codon change | Variant Component |
 | **48005-3** | Amino acid change (pHGVS) | Variant Component |
 | **48018-6** | Gene studied [ID] | Variant Component |
 | **53037-8** | Genetic variation clinical significance [Imp] | Variant Component (WHO Class) |
