@@ -15,6 +15,11 @@ For processing Deeplex Myc-TB output files (Excel format)
     *   Script: `merge_clinical_deeplex.py`
     *   Function: Aggregates observations to DiagnosticReport.
     *   **Resistance Classification**: Classifies samples (e.g., MDR-TB, XDR-TB) based on detected drug resistance profiles.
+    *   **Patient UUID integration**: Integrate patient UUID to the FHIR Bundles.
+
+## Upload to FHIR Server
+**File:** `upload_fhir.nf`
+For uploading FHIR Genomics bundle with linked patient UUID. Must grant bearer token first using scripts/get_access_token.py. 
 
 ## Workflow Parameter 
 `nextflow.config` defines all input files, directories, versioning, and specific tool parameters, relative to the base directory ($baseDir).
