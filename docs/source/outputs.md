@@ -754,6 +754,8 @@ results/
 │   └── *.fhir.json              
 ├── fhir_merged/
 │   └── *.merged.fhir.json
+├── fhir_upload/
+│   └── *.merged.fhir.upload.json
 ├── runningstat/
 │   └── dag.html
 │   └── execution.html
