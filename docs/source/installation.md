@@ -20,3 +20,17 @@ To run this pipeline, you need the following prerequisites:
     ```bash
     nextflow -v
     ```
+4.  Get Access Token to FHIR Server:
+    ```bash
+    python3 scripts/get_access_token.py --auth_base_url "" --client_id "" --client_secret ""
+    ```
+5.  Basic Run:
+    ```bash
+    nextflow run main.nf
+    ```
+6.  Run and Upload to FHIR Server:
+    ```bash
+    nextflow run main.nf \
+      --fhir_server_url "https://<BASE_URL>/fhir" \
+      --fhir_server_auth  ""
+    ```
