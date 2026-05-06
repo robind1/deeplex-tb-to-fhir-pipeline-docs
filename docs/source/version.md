@@ -1,7 +1,7 @@
 # Version
 
 ### Pipeline Version
-1.4.0
+1.4.1
 
 ### Software Dependencies
 Specific versions used in your run are automatically captured in the `software_versions.yml`.
@@ -9,7 +9,11 @@ Specific versions used in your run are automatically captured in the `software_v
 ### Platform Information
 [Deeplex Myc-TB](https://www.deeplex.com/deeplex-myc-tb-tuberculosis-drug-resistance-diagnostic-kit/)
 
-### [v1.4.0]
+### v1.4.1
+- Added sample-to-patient UUID mapping so Deeplex sample IDs can be pre-associated.
+- Added a standalone OAuth token helper script: scripts/get_access_token.py.
+
+### v1.4.0
 - Removed VCF processing, lineage analysis, and sample report generation.
 - Fixed UPLOAD_FHIR process to FHIR transaction bundles.
 - Removed VCF-related parameters (vcf_dir, reference, repetitive_regions, lineage_barcode, clinical_metadata).
