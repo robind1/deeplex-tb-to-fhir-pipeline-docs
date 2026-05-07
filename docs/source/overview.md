@@ -7,3 +7,23 @@
 :width: 1000px
 :align: center
 ```
+
+### Directory structure
+```
+tb-to-fhir-deeplex
+├── main.nf                          # Main workflow
+├── nextflow.config                  # Configuration
+├── workflows/
+│   ├── deeplex.nf                   # Deeplex processing
+│   └── utils.nf                     # Utility functions
+├── scripts/
+│   ├── xlsx_json_converter.py       # Deeplex to FHIR converter
+│   ├── merge_clinical_deeplex.py    # DiagnosticReport data merge
+│   └── get_versions.py              # Version collection
+│   └── upload_fhir.py               # FHIR uploader
+│   └── get_access_token.py          # Standalone script to get the access token to FHIR server
+└── data/
+│   ├── Deeplex/
+│   └── access_token.json              # Access token generated
+│   └── sampletopatientid_mapping.csv  # Mapping patient UUID with Deeplex's sample ID 
+```
