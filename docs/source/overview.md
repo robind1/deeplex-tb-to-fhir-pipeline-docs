@@ -24,6 +24,7 @@ tb-to-fhir-deeplex
 │   └── get_access_token.py          # Standalone script to get the access token to FHIR server
 └── data/
 │   ├── Deeplex/
+│   └── input_sso.json                 # SSO info to generate token
 │   └── access_token.json              # Access token generated
 │   └── sampletopatientid_mapping.csv  # Mapping patient UUID with Deeplex's sample ID 
 ```
