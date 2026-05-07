@@ -22,7 +22,7 @@ To run this pipeline, you need the following prerequisites:
     ```
 4.  Get Access Token to FHIR Server:
     ```bash
-    python3 scripts/get_access_token.py --auth_base_url "" --client_id "" --client_secret ""
+    python3 scripts/get_access_token.py
     ```
 5.  Basic Run:
     ```bash
