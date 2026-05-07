@@ -29,8 +29,8 @@ To run this pipeline, you need the following prerequisites:
     nextflow run main.nf
     ```
 6.  Run and Upload to FHIR Server:
+   Notes: need to get access token first before running the pipeline
     ```bash
     nextflow run main.nf \
-      --fhir_server_url "https://<BASE_URL>/fhir" \
-      --fhir_server_auth  ""
+      --fhir_server_url "https://<BASE_URL>/fhir"
     ```
