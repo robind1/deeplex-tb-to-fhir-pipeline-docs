@@ -12,6 +12,8 @@ Specific versions used in your run are automatically captured in the `software_v
 ### v1.4.1
 - Added sample-to-patient UUID mapping so Deeplex sample IDs can be pre-associated.
 - Added a standalone OAuth token helper script: scripts/get_access_token.py.
+- Move the log.info to inside the workflow.
+- Docker image and support
 
 ### v1.4.0
 - Removed VCF processing, lineage analysis, and sample report generation.
