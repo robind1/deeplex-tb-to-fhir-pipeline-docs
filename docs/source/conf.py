@@ -9,7 +9,7 @@
 project = 'Deeplex Myc-TB to FHIR Pipeline'
 copyright = '2026, SPHERES OUCRU-ID'
 author = 'SPHERES OUCRU-ID'
-release = '1.4.1'
+release = '1.4.2'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
