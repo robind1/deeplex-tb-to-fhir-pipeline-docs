@@ -1,13 +1,16 @@
 # Version
 
 ### Pipeline Version
-1.4.1
+1.4.2
 
 ### Software Dependencies
 Specific versions used in your run are automatically captured in the `software_versions.yml`.
 
 ### Platform Information
 [Deeplex Myc-TB](https://www.deeplex.com/deeplex-myc-tb-tuberculosis-drug-resistance-diagnostic-kit/)
+
+### v1.4.1
+- Fixed drug susceptibility panel R or S.
 
 ### v1.4.1
 - Added sample-to-patient UUID mapping so Deeplex sample IDs can be pre-associated.
