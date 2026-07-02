@@ -9,7 +9,7 @@ Specific versions used in your run are automatically captured in the `software_v
 ### Platform Information
 [Deeplex Myc-TB](https://www.deeplex.com/deeplex-myc-tb-tuberculosis-drug-resistance-diagnostic-kit/)
 
-### v1.4.1
+### v1.4.2
 - Fixed drug susceptibility panel R or S.
 
 ### v1.4.1
